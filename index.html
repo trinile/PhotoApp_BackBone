@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Photo App in BackBone</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2 class="header"> Photo App </h2>
+  <div id="container">
+    <div id="app"></div>
+
+
+  </div>
+
+  <!-- Libraries -->
+  <script src="lib/underscore.js"></script>
+  <script src="lib/jquery.js"></script>
+  <script src="lib/backbone.js"></script>
+
+  <!-- Models/Collections -->
+  <script src="data.js"></script>
+  <script src="Model/photoModel.js"></script>
+  <script src="collection/photosCollection.js"></script>
+  <script src="Model/appModel.js"></script>
+
+  <!-- Views -->
+  <script src="Views/PhotoListEntryView.js"></script>
+  <script src="Views/PhotoListView.js"></script>
+  <script src="Views/PhotoDisplayView.js"></script>
+  <script src="Views/InputView.js"></script>
+  <script src="Views/AppView.js"></script>
+  <!-- Launch App -->
+  <script src="app.js"></script>
+</body>
+
+</html>

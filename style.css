@@ -1,0 +1,90 @@
+
+.photoEntry, .photoList {
+  list-style-type: none;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px auto;
+  position: relative;
+  text-align: center;
+  /*text-decoration: none;*/
+};
+
+/*photo display View */
+
+.col-md-6 {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  /*margin: auto;*/
+  /*text-align: center;*/
+  width: 100%;
+
+}
+.photoDisplay {
+  /*display: inline-block;*/
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+  margin: 5px auto;
+};
+
+div.photoDisplay {
+  width: 100%;
+  position: relative;
+}
+
+img.photo {
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-radius: 10px;
+}
+/*.photo {
+  width: 100px;
+  display: inline-block;
+  margin: 10px;
+}*/
+/*row container*/
+div.row {
+  margin: 10px auto;
+
+  /*position: fixed;*/
+  /*right: 150px;*/
+}
+.inputBox input {
+  width: 300px;
+}
+.photoDisplay h4 {
+text-align: center;
+}
+.rating, .chooseRating {
+  text-align: center;
+  padding: 15px;
+  margin: 15px auto;
+  text-align: center;
+  text-align: center;
+}
+.submitPhoto {
+  margin: 0 auto;
+  text-align: center;
+}
+#imageTitle, #imageURL {
+  padding: 15px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.submitPhoto label {
+  padding: 15px;
+}
+
+/* photoList display */
+.photoEntry li:even {
+  background-color: #D3DEE6;
+  position: relative;
+}
+/*.photo {
+  width: 300px;
+}*/
